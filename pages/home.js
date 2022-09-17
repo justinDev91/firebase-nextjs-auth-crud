@@ -108,7 +108,7 @@ export default function Home() {
     sessionStorage.removeItem('Token')
     router.push('/register')
   }
-  
+
   return (
     <div className={styles.container}>
       <Head>
